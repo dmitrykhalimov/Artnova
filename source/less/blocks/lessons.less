@@ -30,6 +30,18 @@
   max-width: 650px;
 }
 
+.lessons__video {
+  flex-shrink: 0;
+
+  width: 43.3%;
+  height: 22vw;
+}
+
+.lessons__video iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .lessons__container--vertical img {
   width: auto;
   height: 32vw;
@@ -139,6 +151,13 @@
     width: 48.3%;
   }
 
+  .lessons__video {
+    flex-shrink: 0;
+
+    width: 48.3%;
+    min-height: 30vw;
+  }
+
   .lessons__container--vertical img {
     width: auto;
     height: 42vw;
@@ -229,6 +248,18 @@
 
     width: 100%;
     max-width: 500px;
+  }
+
+  .lessons__video {
+    display: block;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    width: 100%;
+    max-width: 500px;
+    height: calc(35vh - 50px);
+    max-height: 250px;
   }
 
   .lessons__block:nth-child(n) p,
